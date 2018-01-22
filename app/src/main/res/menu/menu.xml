@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_action_fav"
+        android:id="@+id/action_fav"
+        android:title="@string/fav"
+        app:showAsAction="ifRoom"
+        tools:ignore="AppCompatResource"></item>
+
+</menu>

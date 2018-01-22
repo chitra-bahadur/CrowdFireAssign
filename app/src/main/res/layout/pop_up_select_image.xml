@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <Button
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_camera"
+        android:text="@string/camera"
+        android:background="@drawable/border"
+        android:id="@+id/cameraBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center"/>
+
+    <Button
+        android:padding="10dp"
+        android:drawableLeft="@android:drawable/ic_menu_gallery"
+        android:text="@string/gallery"
+        android:background="@drawable/border"
+        android:id="@+id/galleryBtn"
+        android:layout_below="@id/cameraBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center"/>
+
+</RelativeLayout>
